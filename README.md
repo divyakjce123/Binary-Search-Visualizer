@@ -2,6 +2,8 @@
 
 A professional, interactive visualization tool that teaches the array-based Binary Search algorithm. Built with **Python 3** and **Tkinter**, the app provides step-by-step execution, a polished UI, and optional audio feedback to make learning intuitive and fun.
 
+![Project Screenshot](image.png)
+
 ## 📌 Features
 
 - **Real-time Visualization:** Animated bars show how Binary Search reduces the array in each step.
@@ -34,12 +36,12 @@ A professional, interactive visualization tool that teaches the array-based Bina
    cd AlgoViz-Binary-Search
 Run the project:
 
-Bash
+
 
 python main.py
 (If your system uses python3, try python3 main.py)
 
-🧭 How to Use the App
+# 🧭 How to Use the App
 Generate a list: Use 🎲 Randomize or enter a sorted list manually.
 
 Select Target: Enter a number in the Find box (leave empty to auto-pick a random target).
@@ -68,7 +70,7 @@ Highlighted code lines on the right panel.
 
 Color-coded bars (Blue = Active, Yellow = Mid, Green = Found).
 
-🧩 Example Inputs
+# 🧩 Example Inputs
 Valid sorted custom list:
 
 Plaintext
@@ -76,23 +78,21 @@ Plaintext
 3, 7, 12, 19, 24, 31, 42
 Note: Unsorted input will trigger a validation error.
 
-📦 Build Windows Executable (Optional)
+# 📦 Build Windows Executable (Optional)
 If you want to turn this into an .exe file:
-
-Bash
 
 pip install pyinstaller
 pyinstaller --onefile --windowed main.py
 The .exe file will appear in the dist/ folder.
 
-♿ Cross-platform Notes
+# ♿ Cross-platform Notes
 Tkinter enables Windows, macOS, and Linux compatibility.
 
 If winsound is unavailable (macOS/Linux), the app automatically switches to a standard system bell.
 
 No features break due to missing sound.
 
-🧾 Code Structure
+# 🧾 Code Structure
 main.py: Contains the core logic.
 
 ProBinarySearchApp: Handles UI and Event logic.
@@ -101,7 +101,7 @@ SearchStep: Tracks the timeline state for each algorithm step.
 
 Visual rendering: Logic for drawing bars, arrows, and highlighting code.
 
-💡 Future Enhancements
+# 💡 Future Enhancements
 [ ] Add sound ON/OFF toggle.
 
 [ ] Recursive Binary Search visualization mode.
@@ -110,29 +110,22 @@ Visual rendering: Logic for drawing bars, arrows, and highlighting code.
 
 [ ] Keyboard shortcuts for controls (Space to pause, Arrows to step).
 
-📸 Screenshots
-(Replace image.png with your actual screenshot URL or file path)
-
-🧪 Validation / Safety
+# 🧪 Validation / Safety
 Custom lists must be sorted.
 
 UI remains responsive using root.after() instead of blocking time.sleep().
 
 All sound functions are wrapped in try-catch blocks to prevent crashes on unsupported systems.
 
-📄 License
+# 📄 License
 This project uses the MIT License. Feel free to modify and use for educational or academic purposes.
 
-🤝 Contributing
+# 🤝 Contributing
 Fork the repo.
-
 Create a new branch.
-
 Commit your changes.
-
 Submit a Pull Request.
 
-👩‍🏫 Author
+# 👩‍🏫 Author
 Project created by Divya Jadhav
-
 Ideal for mini projects, algorithm demonstrations, and academic submissions.
