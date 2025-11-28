@@ -1,0 +1,3 @@
+# No external dependencies required
+# Requires Python 3.x
+# Uses standard libraries: tkinter, random, winsound (Windows)
