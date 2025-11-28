@@ -32,7 +32,7 @@ A professional, interactive visualization tool that teaches the array-based Bina
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/AlgoViz-Binary-Search.git](https://github.com/YOUR-USERNAME/AlgoViz-Binary-Search.git)
+   git clone [https://github.com/divyakjce123/Binary-Search-Visualizer](https://github.com/divyakjce123/Binary-Search-Visualizer)
    cd AlgoViz-Binary-Search
 Run the project:
 
