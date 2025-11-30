@@ -26,7 +26,7 @@ A professional, interactive visualization tool that teaches the array-based Bina
 
 - Python 3.7+
 - Tkinter (usually included with Python)
-- *Optional:* winsound (Windows only)
+
 
 ## 🚀 How to Run
 
